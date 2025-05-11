@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+VERSION
+requirements.txt
+setup.py
+LeitorPdf/__init__.py
+LeitorPdf/__main__.py
+LeitorPdf/bot.py
+LeitorPdf.egg-info/PKG-INFO
+LeitorPdf.egg-info/SOURCES.txt
+LeitorPdf.egg-info/dependency_links.txt
+LeitorPdf.egg-info/requires.txt
+LeitorPdf.egg-info/top_level.txt
+LeitorPdf/resources/start.png

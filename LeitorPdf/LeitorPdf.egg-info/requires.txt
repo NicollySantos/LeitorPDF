@@ -1,0 +1,4 @@
+botcity-framework-core<2.0,>=1.2.1
+botcity-maestro-sdk<1.0,>=0.5.1
+openpyxl
+pdfplumber

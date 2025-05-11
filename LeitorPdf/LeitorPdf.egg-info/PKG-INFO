@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: LeitorPdf
+Version: 1.0
+Summary: Projeto de extração de dados de faturas em pdf para inserção desses dados em um arquivo excel
+Description-Content-Type: text/markdown
+Requires-Dist: botcity-framework-core<2.0,>=1.2.1
+Requires-Dist: botcity-maestro-sdk<1.0,>=0.5.1
+Requires-Dist: openpyxl
+Requires-Dist: pdfplumber
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: summary
+
+# LeitorPdf
+
+Projeto de extração de dados de faturas em pdf para inserção desses dados em um arquivo excel
+
+## WARNING
+
+You are using an outdated version of the template which is no longer recommended.
+
+While this template works and is valid, it is strongly recommended to create a new project with the latest template version.
+
+Please refer to our [documentation page](https://documentation.botcity.dev/tutorials/python-automations/desktop/).
