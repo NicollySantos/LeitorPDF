@@ -59,10 +59,9 @@ class MeuBot:
             endereco = 'Não encontrado'
 
             for i, linha in enumerate(linhas):
+                # print(f'{i} - {linha}')
                 if re.search(padrao_fatura, linha):
                     fatura = re.search(padrao_fatura, linha).group(1)
-                elif re.search('FATURA', linha):
-                    fatura = linhas[i - 1] if i > 0 else 'Não encontrado'
                 elif re.search(padrao_emissao, linha):
                     emissao = re.search(padrao_emissao, linha).group(1)
                 elif re.search(padrao_vencimento, linha):
